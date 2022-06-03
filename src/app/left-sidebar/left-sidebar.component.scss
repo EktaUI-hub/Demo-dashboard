@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+}
+.nav-link{
+    color: gray;
+}
+
+.nav-item.active {
+    font-weight: bold;
+    color: var(--blue-color-7);
+    // border-right: 4px solid blue;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    // color: var(--grey-color-1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card{
+    border-radius: 1.25rem;
+    background-color: #ecebf1fa; 
+    border: none;
+}
